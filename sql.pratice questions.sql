@@ -140,26 +140,6 @@ order by revenue desc;
 
 
 
-select  date_trunc('month',sub_date) as month,
-sum(amount) as total_revenue
-from sub
-group by date_trunc('month',sub_date)
-order by month
-
-select date_trunc('month',sub_date) as month,
-sum(revenue)
 
 
-
-
-
-
-
-
-
-
-
-
-	
-);
 
